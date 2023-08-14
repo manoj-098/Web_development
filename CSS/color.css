@@ -1,0 +1,14 @@
+div{
+    color:aliceblue;
+    color:rgb(250,100,0);
+    color:rgba(250,100,0,.8);
+    color:hsl(24,50%,80%);
+    color:hsla(9,3%,2%,.7);
+    color:white;
+}
+
+body
+{
+    background-color: rgb(50,50,50);
+
+}
