@@ -1,0 +1,32 @@
+
+/* Accessing particular element */
+h2{
+    color:REd;
+}
+
+p{
+    Color:GReen;
+    text-decoration:underline;
+}
+
+
+/* Accessing all elements */
+*{
+    Color:blue;
+
+}
+
+/* Accessing vi ID */
+
+#check_01
+{
+    color:brown;
+}
+
+/* Accessing via Class Name */
+.checkbox
+{
+    color:chartreuse;
+}
+
+
