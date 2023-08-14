@@ -1,0 +1,47 @@
+/* Type selector */
+h1,h2,h3
+{
+    color:blue;
+}
+
+/* Class selector */
+.add
+{
+    color:rebeccapurple;
+}
+
+/* ID selector */
+#ab_123
+{
+    color:green;
+}
+
+/* Universal selector */
+*
+{
+    Color: Yellow;
+}
+
+/* Child selector */
+div>p
+{
+    color:red;
+}
+
+/* Descendent selector */
+div a
+{
+    color:green;
+}
+
+/* Sibling selector */
+h1~h3
+{
+    color:purple;
+}
+
+/* Adjacent sibling selector */
+h2+h3
+{
+    color:blue;
+}
