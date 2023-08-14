@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><b>CHECK BOX</b></h2>
+    <p>-----Please select the documnets you have------------</p>
+    <form action="form_result.html" target="_blank">
+        <div>
+            <input type="checkbox" name="Documents" id="aadhar" value="Aadhar">
+            <label for="aadhar"> AADHAR</label>
+            <br>
+            <input type="checkbox" name="Documents" id="PAN">
+            <label for="PAN"> PAN CARD</label>
+            <br>
+            <input type="checkbox" name="Documents" id="License" >
+            <label for="License"> LICENSE</label>
+            <br>
+            <input type="checkbox" name="Documents" id="voterID">
+            <label for="voterID"> VOTER ID</label>
+            <br>
+            <input type="checkbox" name="Documents" id="ration" >
+            <label for="ration"> RATION CARD</label>
+        </div>
+
+    <h2>RADIO</h2>
+    <p>-------Select your country--------</p>
+    <div>
+        <input type="radio" name="country" id="India" value="INDIA">
+        <label for="India">INDIA</label>
+        <br>
+        <input type="radio" name="country" id="USA" value="USA" required>
+        <label for="USA">USA</label>
+        <br>
+        <input type="radio" name="country" id="UK" value="UK">
+        <label for="UK">UK</label>
+    </div>
+
+    <h2>SELECT</h2>
+    <p>----------Select state from the dropdown menu-----------</p>
+    <div>
+        <select>
+            <option value="Tamil Nadu">TAMIL NADU</option>
+            <option value="Andhra">ANDHRA PRADESH</option>
+            <option value="Kerala">KERALA</option>
+            <option value="Karnataka">KARNATAKA</option>
+            <option value="Madhya Pradesh">MADHYA PRADESH</option>
+            <option value="Telangana">TELANGANA</option>
+            <option value="" selected></option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="Resume">Resume</label>
+        <input type="file" name="Resume" id="Resume">
+        
+    </div>
+    <br>
+    <input type="image" src="submit.jpg" height="40" width="100">
+    <!-- <button type="submit">SUBMIT</button> -->
+    <!-- <button type="image" src="submit.jpg" height="500" width="1000"></button> -->
+    </form>
+</body>
+</html>
