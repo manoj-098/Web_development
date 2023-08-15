@@ -10,22 +10,51 @@
 
 #AB_1{ 
     border:5px double red;
-    margin:100px;
+    width:1500px;
+    height: 500px;
+    /* overflow:hidden; */
+    /* overflow:scroll; */
+    /* margin:100px; */
+    /* box-shadow: 20px 20px 5px grey; */
+
 
 } 
 #AB_1 p{
+    background-color:blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify ;
+    /* text-shadow:2px 2px 1px grey   */
+    border: 2px dotted black;
+    width:1000px;
+    height:auto;
+    /* overflow:scroll; */
     color: blue;
     padding:50px;
     margin:50px 50px ;
+    box-shadow: 20px 20px 5px grey;
 }
 h2{
+    /* border:2px solid blue; */
+    width:100%;
+    text-transform:uppercase;
     background-color:chartreuse;
     padding-left:40%;
 }
 
+
+/* p:first-letter
+{
+  font-size:1em;
+  border:2px solid blue;
+  
+} */
+/* p:first-line{
+    font-size:1.5em;
+} */
+
 a:link
 { 
-    color:yellow;
+    /* color:yellow; */
     line-height:30px;
     /* margin-left:700px; */
     /* margin-bottom:100px; */
@@ -35,13 +64,21 @@ a:link
     display:block;
     border-style:dotted;
     border-color:black;
+    background-color: aqua;
+    box-shadow: 10px 10px 10px rgb(219, 97, 97);
+
    
     
 }
 a:visited
 {
     /* background-color:aqua; */
-    color:chartreuse;
+    color:red;
 }
-
-
+a:hover{
+    color:black;
+    /* border:100% solid black; */
+}
+a:focus{
+    color:blue;    
+}
