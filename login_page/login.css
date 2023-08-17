@@ -1,0 +1,110 @@
+body{
+    /* background-color: rgb(6, 6, 73); */
+    background-image:url("/images/login_1 (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login
+{
+    border:1px solid rgb(162, 153, 153);
+    background-color:rgba(255,255,255,0.04);
+    border-radius:10px;
+    width:370px;
+    height:360px;
+    margin-left:40%;
+    margin-top:15%;
+    padding-top:45px;
+    padding-left:35px;
+    box-sizing:border-box;
+
+    font-weight:bold;
+    line-height: 25px;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 4px -3px 10px rgb(89,203,232); */
+    text-shadow:4px -3px 10px white;
+    box-shadow:5px -5px 10px rgba(255, 255, 255, 0.664);
+}
+
+/* .login:hover{
+    height:370px;
+    width:380px;
+} */
+.checkbox
+{
+    margin-left:10%;
+    box-shadow: none;
+}
+.login .remember
+{
+    /* color:rgb(158, 156, 156); */
+    color:black;
+    font-size:medium;
+    text-shadow: none;
+}
+.login .user_input, .login .pass_input{
+    margin-left:10%;
+    height:25px;
+    width:70%;
+    margin-top:10px;
+   
+}
+
+
+input
+{
+    box-shadow:3px 3px 10px rgb(158, 156, 156);
+    background-color:rgba(0, 0, 0, 0.077);
+    color:white;
+   
+}
+
+.login .user_input:hover , .login .pass_input:hover{
+
+    background-color:rgba(255, 255, 255, 0.188);
+    box-shadow: 3px 3px 10px black;
+    color:black;
+    font-weight: bold;
+    height:27px;
+    width:73%;
+}
+::placeholder 
+{
+    color:grey;
+    font-size:15px;
+}
+
+
+
+
+
+
+.login .button
+{
+    margin-left:33%;
+    height:30px;
+    width:100px;
+    box-shadow:3px 3px 5px grey;
+    font: size 15px;
+    font-weight: bold;
+    background-color: white;
+    color:black;
+}
+
+.login .button:hover{
+    background-color: white;
+    color:black;
+    height:35px;
+    width:105px;
+}
+
+.login .button:active
+{
+    background-color:rgba(255, 255, 255, 0.188);
+    color:white;
+    box-shadow:3px 3px 5px grey;
+    height:35px;
+    width:105px;
+
+}
