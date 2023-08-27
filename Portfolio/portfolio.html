@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My_Portfolio</title>
+</head>
+<style>
+    body{
+        background-color:black;
+        box-sizing:border-box;
+        color:white;
+    }
+    .header ul {
+        display: flex;
+        gap: 6px;
+        margin-top: -55px;
+        background-color: grey;
+        width: 500px;
+        justify-content: right;
+        margin-left:950px;
+    }
+    li {
+        list-style-type: none;
+        height: 28px;
+        width: 100px;
+        text-align: center;
+        padding-top: 7px;
+        background-color: lightgrey;
+        font-weight: bold;
+    }
+    li a{
+        display:contents;
+        color:black;
+    }
+    .header{
+        position:fixed;
+        width:99%;
+        background-color:grey;
+        height:50px;
+        z-index:1;
+
+    }
+    .header h1{
+        margin-left:20px;
+        margin-top:5px;
+        padding-top:0px;
+        padding-left:5px;
+        border-left:5px solid red;
+        color:white;
+        width:200px;
+        height:38px;
+        background-color:grey;
+    }
+    .intro img {
+        /*position:absolute;*/
+        height: 350px;
+        width: 300px;
+        margin-left: 150px;
+        margin-top: 70px;
+        box-shadow: 7px 7px 20px grey;
+    } .Name{
+           position:absolute;
+          margin-left:500px;
+          margin-top:0px;
+          top:200px;
+          line-height:10px;
+      }.intro h1{font-size:45px;}
+       .About , .Projects, .Education, .Contact{
+           margin-top:50px;
+           margin-bottom:50px;
+           font-size:20px;
+           width:95%;
+           margin-left:30px;
+           padding-left:20px;
+       }
+       .About, .Education, .internal_Projects{
+           border:1px solid lightgrey;
+           /* margin-bottom:20px; */
+       }
+       .internal_Projects{
+        margin-bottom:20px;
+       }
+       .About, .Education{
+           background-color:lightgrey;
+           color:black;
+       }
+       .About{height:250px}
+       
+       p, dl{
+           font-size:20px;
+           margin-left:50px;
+           line-height:30px;
+           text-indent:80px;
+       }
+
+       dt{
+           font-weight:bold;
+       }
+       h3{
+           margin-left:40px;
+       }
+       span
+       {
+           display:block;
+           margin-left:35%;
+       }
+       .Education img{
+           height:25px;
+           width:25px;
+       }
+       .Education hr{
+           visibility:hidden;
+       }
+       .Contact img{
+           height:25px;
+           width:35px;
+           padding-right:10px;
+           padding-top:10px;
+       }
+       .Contact dt{
+           line-height:50px;
+       }
+       a
+       {
+           color:white;
+           display:contents;
+       }
+       /*Hover Effects*/
+       li:hover
+       {
+           background-color:white;
+           margin-top:10px;
+        }
+        ul:hover{
+            background-color:rgba(0,0,0,0);
+        }
+       .intro h1:hover{
+            font-size:47px;
+            text-shadow:5px 5px 10px grey;
+       }
+    .intro img:hover {
+        height: 360px;
+        width: 310px;
+        box-shadow: 7px 7px 20px grey;
+    }
+    .About:hover ,.Education:hover{
+        box-shadow:1px 1px 20px 5px grey;
+    }
+    .Projects a:hover
+    {
+        font-size:21px;
+        text-shadow:5px 5px 5px grey;
+    }
+    .internal_Projects:hover{
+        box-shadow:1px 1px 20px 5px grey; 
+    }
+    .Contact a:hover{
+        font-size:25px;
+        text-shadow:3px 3px 10px grey;
+    }
+
+</style>
+<body>
+    <div class="header">
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="portfolio.html #About">ABOUT</a></li>
+            <li><a href="portfolio.html #Projects">PROJECTS</a></li>
+            <li><a href="portfolio.html #Education">EDUCATION</a></li>
+            <li><a href="portfolio.html #Contact">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="intro">
+        <img src="profile.jpg" alt="">
+        <div class="Name">
+            <h1>Manoj V</h1>
+            <hr width="500">
+            <h4>Student at Rajalakshmi Institute of Technology</h4>
+        </div>
+    </div>
+    <div class="About" id="About">
+        <h2>ABOUT</h2>
+        <p>
+            An aspiring engineering student, driven by a passion for Java Programming and effective communication. With a strong foundation in Java, I am adept at developing robust and efficient solutions that meet complex technical requirements.Additionally, my communicaton skills enable me to effectively convey ideas, collaborate with diverse teams and bridge the gap between technical and non-technical stakeholders. I am committed to driving innovation and fostering collaboration to contribute to the advancement of technology.
+        </p>
+    </div>
+    <div class="Projects" id="Projects">
+        <h2>PROJECT</h2>
+        <div class="internal_Projects">
+        <h3>Login Page</h3>
+        <p>
+            Created a simple login page using basic HTML tags and CSS properties which prompts the user for username and password and contains a submit button which then redirects the user to another page<span><a href="https://github.com/manoj-098/Web_development/tree/0199a713764d7635992b9a962274e1ef9bc5bec3/login_page" target="_blank">PROJECT LINK</a></span>
+        </p>
+            </div>
+        <div class="internal_Projects">
+        <h3>HackerRank Clone Page</h3>
+        <p>
+            Created a clone of HackerRank's Login Page using basics of HTML tags along with CSS properties.<span><a href="https://github.com/manoj-098/Web_development/tree/0199a713764d7635992b9a962274e1ef9bc5bec3/hackerrank_clone_login_page" target="_blank">PROJECT LINK</a></span>
+        </p>
+            </div>
+    </div>
+    <div class="Education" id="Education">
+        <h2>EDUCATION</h2>
+        <dl>
+             <dt><img src="graduate.svg">  Rajalakshmi Institute of Technology</dt>
+                <dd>Computer and Communication Engineering</dd>
+                <dd>(2021-25)</dd>
+                <hr>
+            <dt><img src="graduate.svg">  The Frontline Academy Matric.Hr.Sc. School</dt>
+                <dd>Higher Secondary</dd>
+                <dd>(2019-21)</dd>
+                
+        </dl>
+    </div>
+    <div class="Contact" id="Contact">
+        <h2>CONTACT</h2>
+        <dl>
+            <dt><img src="linkedin.webp"><a href="https://www.linkedin.com/in/manoj-v-64ab31227" target="_blank">Manoj V</a></dt>
+            <dt><img src="call.png"><a href="">+91 9994838206</a></dt>
+            <dt><img src="mail.jpg"><a href="">manojvenki098@gmail.com</a></dt>
+            <dt><img src="github (1).png"><a href="https://github.com/manoj-098" target="_blank">manoj-098</a></dt>
+        </dl>
+    </div>  
+</body>
+</html>
